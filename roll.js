@@ -15,7 +15,7 @@ for (i = 0; i < dice; i++){
   //Push each result into the array
   diceRolls.push(results);
 }
-
+//Output the results in the results field
 resultsBox.value = diceRolls;
 
 }
