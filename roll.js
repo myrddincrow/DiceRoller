@@ -2,6 +2,8 @@
 
 //Roll the dice
 function rollDice(){
+//Roll the Dice when "Roll" button is clicked
+document.getElementById("roll").onclick = function (){
 
   var sides = document.getElementById("sides").value;
   var dice = document.getElementById("dice").value;
@@ -20,5 +22,6 @@ resultsBox.value = diceRolls;
 
 }
 
-//Roll the Dice when "Roll" button is clicked
-document.getElementById("roll").onclick = function () {rollDice()};
+}
+//Ready the ALL THE FUNCTIONS!
+window.onload = function () {rollDice()};
